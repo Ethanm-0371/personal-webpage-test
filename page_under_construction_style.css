@@ -8,12 +8,12 @@ body {
 }
 
 p {
-  font-size: 50px;
+  font-size: 4vw;
   color: white;
 }
 
 .dots {
-  font-size: 50px;
+  font-size: 4vw;
   position: relative;
 }
 
