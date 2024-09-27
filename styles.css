@@ -1,0 +1,131 @@
+header{
+  position: fixed;
+  z-index: 1000;
+  background: #2d617a;
+  width: 100%;
+  height: 80px;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Passion One", sans-serif;
+  font-size: larger;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+.navigation{
+  display: flex;
+  list-style: none;
+  margin: 0px 50px;
+}
+.navigation a{
+  font-size: larger;
+  text-decoration: none;
+  padding: 20px;
+  color: white;
+}
+
+body {
+  background: linear-gradient(45deg, #172047, #2d617a);
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif */
+}
+
+.introbox {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  margin: 100px;
+  justify-items: center;
+  align-items: center;
+  position: relative;
+}
+
+.introbox-text {
+  margin: 40px;
+}
+
+.introbox h1 {
+  font-size: 40px;
+}
+
+.introbox p {
+  font-size: 30px;
+}
+
+.introbox img {
+  border-radius: 20px;
+  width: 500px;
+  height: 500px;
+  margin: 20px;
+}
+
+.experience {
+  margin: 100px;
+}
+
+.experience-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.experience-box {
+  background-color: rgba(0, 0, 0, 0.267);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-items: center;
+  gap: 30px;
+  padding: 30px;
+  border-radius: 15px;
+  height: 200px;
+}
+
+.experience-box div{
+  width: 300px;
+}
+
+.projects {
+  margin: 100px;
+}
+
+.projects-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.project-box {
+  background-color: rgba(0, 0, 0, 0.267);;
+  padding: 10px 40px 10px 40px;
+  border-radius: 15px;
+}
+
+.skills {
+  margin: 100px;
+}
+
+.skills-grid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.skills-box {
+  background-color: rgba(0, 0, 0, 0.267);;
+  padding: 0px 30px 10px 30px;
+  width: 75%;
+  border-radius: 15px;
+}
+
+.skills-box img {
+  height: 80px;
+  padding: 0px 15px 15px 15px;
+}
